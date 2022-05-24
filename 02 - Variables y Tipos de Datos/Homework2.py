@@ -98,7 +98,7 @@ var21 -= 100
 print(var21)
 
 #24th question
-print(" 1 < < 2 no es una operación definidad en python")
+print(1 << 2)
 
 #25th question
 print("No está permitido hacer la operación 2 + '2' porque uno es string y el otro integer")
