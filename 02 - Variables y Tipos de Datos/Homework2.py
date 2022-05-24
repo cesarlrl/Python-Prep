@@ -11,7 +11,7 @@ print(type(8.5))
 print(type(variable))
 
 # 4th question
-my_name = 'Cesar'
+my_name = 'Cesar Rosendo'
 
 #5th question
 complex_number = 5 + 3j
@@ -29,6 +29,8 @@ var2 = True
 #9th question
 print("Type of var1 is " + str(type(var1)))
 print("Type of var2 is " + str(type(var2)))
+#Most efficient answer (after I checked the answers I noticed this)
+print('var1 es del tipo ', type(var1),' y var2 es del tipo ', type(var2))
 
 #10th question
 var3 = 10
@@ -55,7 +57,7 @@ var12 = var3 * variable
 print(var12)
 
 #14th question
-print(2 ** 8)
+print(2**8)
 
 #15th question
 var13 = 27 
