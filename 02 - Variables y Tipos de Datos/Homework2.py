@@ -1,7 +1,6 @@
-# 1st question
 from cmath import pi
 
-
+# 1st question
 variable = 3
 print (variable)
 
