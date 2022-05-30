@@ -92,7 +92,10 @@ mi_diccionario = { 'Ciudad': lista_orig,
 'País': ['Argentina', 'Brasil', 'Emiratos Arabes Unidos', 'Estados Unidos', 'Estados Unidos', 'España', 'España', 'Venezuela', 'Japón', 'Francia'], 
 'Continente': ['America', 'America', 'Asia', 'America', 'America', 'Europa', 'Europa', 'America', 'Asia', 'Europa' ] }
 
-#Pregunta 24 y 25
+#Pregunta 24
+print(mi_diccionario.keys())
+
+#Pregunta 25
 print(mi_diccionario['Ciudad'])
 print(mi_diccionario['País'])
 print(mi_diccionario['Continente'])
