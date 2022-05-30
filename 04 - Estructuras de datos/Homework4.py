@@ -88,7 +88,9 @@ var1, var2, var3 = tupla1
 print('Var1:',var1,'Var2',var2,'Var3',var3)
 
 #Pregunta 23
-mi_diccionario = { 'Ciudad': lista_orig, 'País': ['Argentina', 'Brasil', 'Emiratos Arabes Unidos', 'Estados Unidos', 'España', 'Venezuela', 'Japón', 'Francia'], 'Continente': ['America', 'Europa', 'Asia'] }
+mi_diccionario = { 'Ciudad': lista_orig, 
+'País': ['Argentina', 'Brasil', 'Emiratos Arabes Unidos', 'Estados Unidos', 'Estados Unidos', 'España', 'España', 'Venezuela', 'Japón', 'Francia'], 
+'Continente': ['America', 'America', 'Asia', 'America', 'America', 'Europa', 'Europa', 'America', 'Asia', 'Europa' ] }
 
 #Pregunta 24 y 25
 print(mi_diccionario['Ciudad'])
