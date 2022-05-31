@@ -139,7 +139,13 @@ print('__________END Pregunta #14__________')
 
 #Pregunta 15
 lis = [[1,2,3,4],'rojo','verde',[True,False,False],['uno','dos','tres']]
-print(len(lis),'es la cantidad de elementos en la lista',lis)
+cantidad = 0
+for elemento in lis:
+    if (type(elemento) == list):
+        cantidad += len(elemento)
+    else:
+        cantidad += 1
+print('La cantidad total de elementos es', cantidad)
 del(lis)
 
 print('__________END Pregunta #15__________')
