@@ -151,7 +151,7 @@ class Herramientas:
         if(type(numero) != int):
             return 'El numero debe ser un entero'
         if(numero < 0):
-            return 'El numero debe ser pisitivo'
+            return 'El numero debe ser positivo'
         if (numero > 1):
             numero = numero * self.factorial(numero - 1)
         return numero
